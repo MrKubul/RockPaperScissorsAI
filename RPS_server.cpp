@@ -143,7 +143,7 @@ protected:
 			UpdateLobby(LobbyID);
 			break;
 		}
-		case GameMsg::Lobby_LeaveLobby: //TO DO
+		case GameMsg::Lobby_LeaveLobby:
 		{
 			uint32_t LobbyID;
 			msg >> LobbyID;
@@ -171,7 +171,7 @@ protected:
 			UpdateLobby(LobbyID);
 			break;
 		}
-		case GameMsg::Lobby_UpdateLobby:
+		case GameMsg::Lobby_ChangePlayerState:
 		{
 			uint32_t LobbyID;
 			msg >> LobbyID;
