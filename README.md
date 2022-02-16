@@ -3,3 +3,6 @@ My first project in Deep Learning. Model created using Keras, it can classificat
 
 
 ![Alt text](https://github.com/MrKubul/rockpaperscissors-ai/blob/master/scheme.png)
+
+
+![](ai.gif)
